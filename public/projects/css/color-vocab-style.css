@@ -26,3 +26,15 @@ img {
     height: 200px;
     width: 200px;
 }
+
+.nav {
+    text-align: right;
+}
+
+a:link {
+    color: #FFFBF5;
+}
+
+a:visited {
+    color: #C3ACD0;
+}
