@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    }
+
+p {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32pt;
+    color: white;
+    text-align: center;
+    margin-top: 21px;
+}
+
+#moranis {
+    width:100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+html {
+    background-color: black;
+}
+
+.poster {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.nav {
+    text-align: right;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}

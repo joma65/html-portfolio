@@ -1,0 +1,40 @@
+.nav {
+    text-align: right;
+}
+
+a:link {
+    color: #FFFBF5;
+}
+
+a:visited {
+    color: #C3ACD0;
+}
+
+.projects, .capstone, .header {
+    text-align: center;
+}
+
+.projects, .capstone {
+    color: #7743DB;
+}
+
+.header {
+    color: #FFFBF5;
+}
+
+.projects {
+    background-color: #FFFBF5;
+}
+
+.capstone {
+    background-color: #F7EFE5;
+}
+
+html {
+    background-color: #7743DB;
+}
+
+h2 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
