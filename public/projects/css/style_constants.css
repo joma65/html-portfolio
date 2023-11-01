@@ -1,6 +1,7 @@
 .nav {
     display: flex;
-    position: absolute;
+    justify-content: right;
+    clear: both;
     right: 2%;
     gap: 5px;
 }
