@@ -2,6 +2,10 @@
     text-align: right;
 }
 
+img {
+    height: 200px;
+}
+
 a:link {
     color: #FFFBF5;
 }
