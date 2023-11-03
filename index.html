@@ -5,87 +5,320 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Martin McElrath</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<div class="header">
-			<h1>Martin McElrath's Portfolio</h1>
-			<h2>I'm an aspiring Web Developer</h2>
+		<div class="hero">
+			<div class="container col-xxl-8 px-4 py-5">
+				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+					<div class="col-10 col-sm-8 col-lg-6">
+						<img
+							src="./assets/images/headshot.png"
+							class="d-block mx-lg-auto img-fluid"
+							alt="Bootstrap Themes"
+							height="500"
+							loading="lazy" />
+					</div>
+					<div class="col-lg-6">
+						<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+							Martin McElrath
+						</h1>
+						<p class="lead">
+							I'm Martin and this is my portfolio. I'm working my way through a
+							self-study bootcamp for web development.
+						</p>
+						<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+							<button
+								type="button"
+								class="btn btn-primary btn-lg px-4 me-md-2"
+								onclick="window.location.href='https://github.com/joma65'">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-github"
+									viewBox="0 0 16 16">
+									<path
+										d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+								</svg>
+								Github
+							</button>
+							<button
+								type="button"
+								class="btn btn-outline-secondary btn-lg px-4 btn-outline-light"
+								onclick="window.location.href='mailto:mmcelrath@proton.me'">
+								Email Me
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="projects">
-			<hr />
-			<h2>Projects</h2>
-			<a href="./public/projects/html/movie-ranking.html"
-				><img
-					src="./assets/images/movie-project.png"
-					alt="screenshot of movie ranking project"
-					title="movie ranking project"
-			/></a>
-			<a href="./public/projects/html/birthday-invite.html"
-				><img
-					src="./assets/images/birthday-invite.png"
-					alt="screenshot of birthday invite project"
-					title="birthday invite project"
-			/></a>
-			<a href="./public/projects/html/color-vocab.html"
-				><img
-					src="./assets/images/color-vocab.jpg"
-					alt="screenshot of Spanish color vocab project"
-					title="Spanish color vocab project"
-			/></a>
-			<a href="./public/projects/html/motivation.html"
-				><img
-					src="./assets/images/motivation.png"
-					alt="screenshot of motivational poster"
-					title="Motivationl Poster"
-			/></a>
-			<a href="./public/projects/html/css-flag.html"
-				><img
-					src="./assets/images/CSS-flag.png"
-					alt="screenshot of flag made from css"
-					title="CSS Flag"
-			/></a>
-			<a href="./public/projects/html/design-agency.html"
-				><img
-					src="./assets/images/design-agency.png"
-					alt="screenshot of design agency project"
-					title="Design Agency"
-			/></a>
-			<a href="./public/projects/html/flex-table.html"
-				><img
-					src="./assets/images/flex-table.png"
-					alt="screenshot of flex table project"
-					title="Flex Table"
-			/></a>
-			<a href="./public/projects/html/mondrian-project.html"
-				><img
-					src="./assets/images/mondrian-project.png"
-					alt="screenshot of mondrian Composition Number 3"
-					title="Monddrian Painting"
-			/></a>
-			<a href="./public/projects/html/tindog.html">
-				<img
-					src="./assets/images/tindog.png"
-					alt="screenshot of tindog project"
-					title="Tindog" />
-			</a>
-		</div>
-		<div class="capstone">
-			<h2>Capstone Projects</h2>
-			<a href="https://joma65.github.io/myresume/"
-				><img
-					src="./assets/images/resume.png"
-					alt="screenshot of resume"
-					title="HTML Resume"
-			/></a>
-			<hr />
-		</div>
+		<div class="album py-5 bg-body-tertiary">
+			<div class="container my-5">
+				<div class="p-5 text-center bg-body-tertiary rounded-3">
+					<h1 class="text-body-emphasis">Learning Projects</h1>
+					<p class="lead">
+						These are some of the projects I've made in bootcamp. These are
+						primarily focused on learning a single aspect of web development and
+						implementing them.
+					</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/movie-project.png"
+								alt="screenshot of movie ranking project"
+								title="movie ranking project"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">
+									First project in bootcamp made in basic html.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/movie-ranking.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/birthday-invite.png"
+								alt="screenshot of birthday invite project"
+								title="birthday invite project"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">
+									First project adding anchor tags and images.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/birthday-invite.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/color-vocab.jpg"
+								alt="screenshot of Spanish color vocab project"
+								title="Spanish color vocab project"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">
+									First project to incorporates CSS stylesheets.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/color-vocab.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-		<div class="nav">
-			<a href="./index.html">Home</a>
-			<a href="./public/projects/html/about.html">About Me</a>
-			<a href="./public/projects/html/contact.html">Contact Me</a>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/motivation.png"
+								alt="screenshot of motivational poster"
+								title="Motivational Poster"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">Project brings in outside sources.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/motivation.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/CSS-flag.png"
+								alt="screenshot of flag made from css"
+								title="CSS Flag"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">Flag of Laos made entirely from CSS.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/css-flag.html"
+												>View Project
+											</a>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/design-agency.png"
+								alt="screenshot of design agency project"
+								title="Design Agency"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">Basic responsive website with flexbox.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/design-agency.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/flex-table.png"
+								alt="screenshot of flex table project"
+								title="Flex Table"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">
+									Responsive pricing modal made in flexbox.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/flex-table.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/mondrian-project.png"
+								alt="screenshot of mondrian Composition Number 3"
+								title="Mondrian Painting"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">Mondrian Composition 3 made with Grid.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/mondrian-project.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+									<small class="text-body-secondary">9 mins</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img
+								src="./assets/images/tindog.png"
+								alt="screenshot of tindog project"
+								title="Tindog"
+								class="card-img-top" />
+							<div class="card-body">
+								<p class="card-text">Website landing made with Bootstrap.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button
+											type="button"
+											class="btn btn-sm btn-outline-secondary">
+											<a href="./public/projects/html/tindog.html"
+												>View Project</a
+											>
+										</button>
+									</div>
+									<small class="text-body-secondary">9 mins</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="featurette-divider" />
+		<div class="container pb-5">
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading fw-normal lh-1">
+						Capstone Project
+						<span class="text-body-secondary">Resume</span>
+					</h2>
+					<p class="lead">
+						First major self-guided project that has received multiple iterative
+						updates as I've improved my skillset.
+					</p>
+				</div>
+				<div class="col-md-5">
+					<a href="https://joma65.github.io/myresume/"
+						><img
+							src="./assets/images/resume.png"
+							alt="screenshot of resume"
+							title="HTML Resume"
+							class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+					/></a>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
