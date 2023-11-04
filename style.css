@@ -17,6 +17,24 @@
 		background-position: 0% 50%;
 	}
 }
+.name {
+	color: white !important;
+	text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
+}
+.about {
+	color: whitesmoke;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
+}
 
 .card-img-top {
     width: 100%;
