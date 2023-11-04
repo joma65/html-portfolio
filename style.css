@@ -52,9 +52,16 @@ a {
 		text-align: center;
 	}
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.justify-content-md-start {
+		justify-content: center !important;
+	}
+	.btn-lg {
+		width: 100%;
+	}
+}
 @media screen and (max-width: 576px) {
 	div.col-10 {
 		width: 100%;
 	}
-	
 }
