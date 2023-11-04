@@ -1,5 +1,6 @@
-.hero {
+.hero, .name {
 	background-color: #00a9ff;
+	color: white !important;
 }
 
 .album {
