@@ -10,12 +10,44 @@
 			rel="stylesheet"
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" />
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Serif&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="./style.css" />
+		<link rel="shortcut icon" type="image/png" href="./assets/images/favicon.ico"/>
+		<!-- <base href="https://joma65.github.io/html-portfolio/" target="_blank" /> -->
 	</head>
 	<body>
+		<nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="navbar">
+			<div class="container-fluid">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarsExample02"
+					aria-controls="navbarsExample02"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsExample02">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="projects.html">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="capstones.html">Capstones</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="hero">
 			<div class="container col-xxl-8 px-4 pt-5">
 				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -27,7 +59,7 @@
 							height="500"
 							loading="lazy" />
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-5">
 						<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 name">
 							Martin McElrath
 						</h1>
@@ -63,255 +95,83 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="album pb-5 bg-body-tertiary">
-			<div class="container">
-				<div class="p-5 text-center bg-body-tertiary rounded-3">
-					<h1 class="text-body-emphasis">Learning Projects</h1>
-					<p class="lead">
-						These are some of the projects I've made in bootcamp. These are
-						primarily focused on learning a single aspect of web development and
-						implementing them.
+		<div class="skills">
+			<div class="parent container py-5">
+				<div class="independent">
+					<img
+						src="./assets/images/independent.png"
+						alt="person working alone" />
+				</div>
+				<div class="work-ethic">
+					<h3>Independent Worker</h3>
+					<p class="about">
+						Several of my jobs have been self-directed. These would lead me to
+						have an independent work ethic and decision making toward company
+						goals while maintaining adherence to deadlines.
 					</p>
 				</div>
-			</div>
-			<div class="container">
-				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/movie-project.png"
-								alt="screenshot of movie ranking project"
-								title="movie ranking project"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">
-									First project in bootcamp made in basic html.
-								</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/movie-ranking.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/birthday-invite.png"
-								alt="screenshot of birthday invite project"
-								title="birthday invite project"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">
-									First project adding anchor tags and images.
-								</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/birthday-invite.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/color-vocab.jpg"
-								alt="screenshot of Spanish color vocab project"
-								title="Spanish color vocab project"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">
-									First project to incorporates CSS stylesheets.
-								</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/color-vocab.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/motivation.png"
-								alt="screenshot of motivational poster"
-								title="Motivational Poster"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">Project brings in outside sources.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/motivation.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/CSS-flag.png"
-								alt="screenshot of flag made from css"
-								title="CSS Flag"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">Flag of Laos made entirely from CSS.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/css-flag.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/design-agency.png"
-								alt="screenshot of design agency project"
-								title="Design Agency"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">Basic responsive website with flexbox.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/design-agency.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/flex-table.png"
-								alt="screenshot of flex table project"
-								title="Flex Table"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">
-									Responsive pricing modal made in flexbox.
-								</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/flex-table.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/mondrian-project.png"
-								alt="screenshot of mondrian Composition Number 3"
-								title="Mondrian Painting"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">Mondrian Composition 3 made with Grid.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/mondrian-project.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img
-								src="./assets/images/tindog.png"
-								alt="screenshot of tindog project"
-								title="Tindog"
-								class="card-img-top" />
-							<div class="card-body">
-								<p class="card-text">Website landing made with Bootstrap.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button
-											type="button"
-											class="btn btn-sm btn-outline-primary"
-											onclick="window.location.href='./public/projects/html/tindog.html'">
-											View Project
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
+				<div class="keyboard mb-2">
+					<img
+						src="./assets/images/keyboard.png"
+						alt="keyboard" />
+				</div>
+				<div class="gaming">
+					<h3>Video Games</h3>
+					<p class="about">
+						I've played a lot of games in my free time. I spent many years in
+						the Massively-Multiplayer Online space. This led me to learning how
+						to dashboard myself and set clear, deliverable goals for
+						self-improvement.
+					</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="capstone pt-5 pb-5">
-			<div class="container">
-				<div class="row featurette">
-					<div class="col-md-7">
-						<h2 class="featurette-heading fw-normal lh-1">
-							Capstone Project
-							<span class="text-body-secondary">Resume</span>
-						</h2>
-						<p class="lead">
-							First major self-guided project that has received multiple
-							iterative updates as I've improved my skillset.
-						</p>
+		<div class="container pt-5 project-background">
+			<div class="row">
+				<div class="col d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<img src="./assets/images/design-agency.png" class="card-img-top" alt="example project">
+					<div class="card-body-home">
+				  		<p class="card-text">Want to see the learning-oriented projects I did during bootcamp? Look in here! </>
 					</div>
-					<div class="col-md-5" align="center">
-						<a href="https://joma65.github.io/myresume/"
-							><img
-								src="./assets/images/resume.png"
-								alt="screenshot of resume"
-								title="HTML Resume"
-								class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid img-thumbnail mx-auto"
-						/></a>
+			  		</div>
+				</div>
+				<div class="col d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<img src="./assets/images/resume.png" class="card-img-top" alt="example capstone">
+					<div class="card-body-home">
+				  		<p class="card-text">Want to see the open-design projects I made during bootcamp? Look in here!</p>
 					</div>
+			  		</div>
 				</div>
 			</div>
 		</div>
+		<div class="container footer">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+			  <div class="col-md-4 d-flex align-items-center">
+				<a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+				  <img src="./assets/images/MM.png" width="30" height="24">
+				</a>
+				<span class="mb-3 mb-md-0 text-body-secondary">© 2023 Martin McElrath</span>
+			  </div>
+		  
+			  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+				<li class="ms-3"><a class="text-body-secondary" href="https://github.com/joma65"><svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="bi bi-github"
+					viewBox="0 0 16 16">
+					<path
+						d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+				</svg></a></li>
+				<li class="ms-3"><a class="text-body-secondary" href="mailto:mmcelrath@proton.me"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+					<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+				  </svg></a></li>
+			  </ul>
+			</footer>
+		  </div>
 	</body>
 </html>

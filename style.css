@@ -3,23 +3,33 @@
 	background-color: #00a9ff;
 	color: white !important;
 }
+
+h3, .name {
+	font-family: 'Noto Serif', serif;
+}
+
+.name {
+	letter-spacing: 3px;
+}
+
 .about {
 	font-weight: 500;
 	padding-bottom: 1.5rem;
 	font-family: "Cabin", sans-serif;
 }
 
+.keyboard > img, .independent > img {
+	border-radius: 50%;
+	height: 125px;
+}
+
 .album,
-.rounded-circle {
+.rounded-circle, .skills, .bg-body-tertiary {
 	background-color: #a0e9ff !important;
 }
 
-.capstone {
+.capstone, body {
 	background-color: #89cff3 !important;
-}
-
-.bg-body-tertiary {
-	background-color: #a0e9ff !important;
 }
 
 .card-body {
@@ -47,9 +57,26 @@ a {
 	text-decoration: none;
 }
 
+div.parent {
+	display: grid;
+	grid-template-columns: .5fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2rem;
+	width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+	div.parent {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 992px) {
 	.name {
 		text-align: center;
+	}
+	div.parent {
+		width: 1000%;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -63,5 +90,14 @@ a {
 @media screen and (max-width: 576px) {
 	div.col-10 {
 		width: 100%;
+	}
+	div.parent {
+		width: 100%;
+	}
+	.keyboard > img, .independent > img {
+		height: 75px;
+	}
+	.col-lg-6 > img {
+		height: 150px;
 	}
 }
