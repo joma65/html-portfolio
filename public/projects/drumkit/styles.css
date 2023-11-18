@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-  background-image: url("../assets/images/drumkit/tom1.png");
+  background-image: url("./assets/images/tom1.png");
 }
 
 .a {
-  background-image: url("../assets/images/drumkit/tom2.png");
+  background-image: url("./assets/images/tom2.png");
 }
 
 .s {
-  background-image: url("../assets/images/drumkit/tom3.png");
+  background-image: url("./assets/images/tom3.png");
 }
 
 .d {
-  background-image: url("../assets/images/drumkit/tom4.png");
+  background-image: url("./assets/images/tom4.png");
 }
 
 .j {
-  background-image: url("../assets/images/drumkit/snare.png");
+  background-image: url("./assets/images/snare.png");
 }
 
 .k {
-  background-image: url("../assets/images/drumkit/crash.png");
+  background-image: url("./assets/images/crash.png");
 }
 
 .l {
-  background-image: url("../assets/images/drumkit/kick.png");
+  background-image: url("./assets/images/kick.png");
 }
 
 .set {

@@ -5,8 +5,8 @@ function rollDice() {
     let player1 = Math.floor(Math.random() * 6) + 1;
     let player2 = Math.floor(Math.random() * 6) + 1;
 
-    document.querySelector(".img1").src = `../assets/images/dicee/dice${player1}.png`;
-    document.querySelector(".img2").src = `../assets/images/dicee/dice${player2}.png`;
+    document.querySelector(".img1").src = `./images/dice${player1}.png`;
+    document.querySelector(".img2").src = `./images/dice${player2}.png`;
 
     if ( player1 > player2 ) {
         document.querySelector(".container h1").innerText = "Player 1 Wins!";
